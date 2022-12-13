@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
 
 // Mixin
 @mixin phone {
@@ -24,10 +23,6 @@
 
 html {
 	scroll-behavior: smooth;
-}
-body {
-	font-family: 'Noto Sans HK', sans-serif;
-	background: #fff;
 }
 
 .slider {

@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
 html {
   scroll-behavior: smooth;
 }
 
 .slider {
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   position: relative;
 }
 .slider .owl-item.active.center .slider-card {
