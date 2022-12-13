@@ -463,3 +463,196 @@ section {
     font-size: 55%;
   }
 }
+
+
+
+
+/* for areas of expertisr*/
+
+
+
+.img{
+	width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.simple-effect {
+    padding: 1em .4em;
+    display: block;
+    font-size: 1.8em;
+}
+.simple-effect span {
+    color: #1e92ea;
+}
+
+
+/*-- global css --*/
+
+.overlay,
+.overlay-text,
+.simple-text,
+.overlay-sim-text-2,
+.overlay-text-effect-3,
+.zoom-effect-1 .img,
+.zoom-effect-2 .img,
+.opacity-effect .img,
+.blur-effect .img,
+.grayscale-effect .img{
+   transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -o-transition: all .4s linear;
+}
+.image-wrapper{
+	margin-bottom: 15px;
+}
+.effect-image-1{
+	position: relative;
+	display: block;
+}
+.overlay-text p,
+.overlay-sim-text-2 p,
+.overlay-text-effect-3 p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 20px 20px;
+}
+.overlay{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+	background: rgba(246,0,2,.7);
+	opacity: 0;
+	visibility: hidden;
+}
+
+/*-- simple overlay css --*/
+
+	.simple-overlay{
+		opacity: 0;
+		visibility: hidden;
+	}
+	.effect-image-1:hover .simple-overlay{
+		visibility: visible;
+		opacity: 1;
+	}
+
+	/*-- left to right overlay --*/
+
+	.simple-overlay-1{
+		width: 0px;
+		visibility: hidden;
+	}
+	.effect-image-1:hover .simple-overlay-1{
+		visibility: visible;
+		opacity: 1;
+		width: 100%;
+	}
+
+	/*-- right to left overlay --*/
+
+	.simple-overlay-2{
+		width: 0px;
+		right: 0;
+		left:initial;
+	}
+	.effect-image-1:hover .simple-overlay-2{
+		visibility: visible;
+		opacity: 1;
+		width: 100%;
+	}
+
+	/*-- right corner to left overlay --*/
+
+	.simple-overlay-3{
+		height: 0px;
+		right: 0;
+		left:initial;
+		width: 0px;
+	}
+	.effect-image-1:hover .simple-overlay-3{
+		visibility: visible;
+		opacity: 1;
+		width: 100%;
+		height: 100%;
+	}
+
+	/*-- ovarlay text effect-1 --*/
+
+	.overlay-text {
+	    position: absolute;
+	    left: 5px;
+	    top: 5px;
+	    width: 96%;
+	    height: 94%;
+	    background: rgba(246,0,2,.7);
+	}
+
+	.overlay-text-1{
+		opacity: 0;
+		visibility: hidden;
+	}
+	.effect-image-1:hover .overlay-text-1{
+		opacity: 1;
+		visibility: visible;
+	}
+	.overlay-text-2{
+		opacity: 0;
+		visibility: hidden;
+		transform: scale(1.1);
+	}
+	.effect-image-1:hover .overlay-text-2{
+		opacity: 1;
+		visibility: visible;
+		transform: scale(1);
+	}
+
+	/*-- overlay text effect 2 --*/
+
+	.overlay-sim-text-2{
+		position: absolute;
+	    left: 0px;
+	    top: 0px;
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(246,0,2,.7);
+	    opacity: 0;
+	}
+
+	.simple-text {
+    	position: absolute;
+	    bottom: 0px;
+	    left: 0px;
+	    width: 100%;
+	    background: #1e92ea;
+	    color: #fff;
+	}
+	.simple-text p{
+	    margin-bottom: 0px;
+	    padding: 2px 8px;
+	}
+
+	.effect-image-1:hover .overlay-xs-1{
+		opacity: 1;
+		visibility: visible;
+		display: block;	
+	}
+	.effect-image-1:hover .simple-text{
+		visibility: hidden;
+		opacity: 0;
+	}
+
+
+
+@media (max-width: 767px){
+	.effect-image-1{
+		margin:30px 0px;
+	}
+}
+
+/* end for areas of expertisr*/
