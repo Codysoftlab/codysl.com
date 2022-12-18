@@ -134,8 +134,8 @@ section {
 }
 
 .home h1 {
-  font-size: 5rem;
-  font-weight: 200;
+  font-size: 6rem;
+  font-weight: 400;
   margin-bottom: 3rem;
   color: var(--white);
 }
@@ -442,7 +442,7 @@ section {
   }
 
   .header .navbar.show {
-    transform: translateX(0)	
+transform: translateX(0);
   }
 
   .header .navbar a {
