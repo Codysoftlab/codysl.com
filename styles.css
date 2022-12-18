@@ -430,7 +430,7 @@ section {
   }
 
   .header .navbar {
-    position: relative;
+    position: fixed;
     top: 6.4rem;
     left: 0;
     right: 0;
