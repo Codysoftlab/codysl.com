@@ -27,6 +27,11 @@
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
 <!--<link rel="stylesheet" type="text/css" href="styles.css"> -->
+ <script type="text/javascript">
+            function showMessage() {
+                alert("Message submitted successfully !.");
+            }
+        </script>
 
 
   </head>
@@ -66,7 +71,7 @@ We are in software development company that provides cutting edge engineering so
 
         <div class="box">
           <div class="image">
-            <img src="images/about.jpeg" alt="" />
+            <img src="images/about_new.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -192,7 +197,7 @@ We are in software development company that provides cutting edge engineering so
 
 					<div class="col-sm-3">
 						<div class="effect-image-1">
-							<img class="img" src="https://www.montereyairport.com/sites/main/files/main-images/camera_lense_0.jpeg" alt="image-1">
+							<img class="img" src="images/Areas_webDev.jpg">
 							<div class="simple-text">
 								<p>WebSite Development</p>
 								<p>Responsive web development</p>
@@ -206,7 +211,7 @@ Our WebNext PLUS solution is always ready to help you with the web design techno
 					</div>
 					<div class="col-sm-3">
 						<div class="effect-image-1">
-							<img class="img" src="https://www.montereyairport.com/sites/main/files/main-images/camera_lense_0.jpeg" alt="image-1">
+							<img class="img" src="images/Areas_MobApp.jpg">
 							<div class="simple-text">
 								<p>Mobile App-designer</p>
 								<p>andriod and ios</p>
@@ -221,16 +226,16 @@ Our WebNext PLUS solution is always ready to help you with the web design techno
 							<img class="img" src="https://www.montereyairport.com/sites/main/files/main-images/camera_lense_0.jpeg" alt="image-1">
 							<div class="simple-text">
 								<p>Cloud Computing</p>
-								<p>Cloud based platforms to application,storage,on-demand services.</p>
+								<p>Cloud based application,storage</p>
 							</div>
 							<div class="overlay-sim-text-2 overlay-xs-1">
-								<p>Cody's strategy is to provide a complete cloud solution for enterprises with dedicated consulting.We designed our CloudSolution PLUS application for continuous integration to enable digital data in cloud space.</p>
+								<p>Cody's strategy is to provide a complete cloud solution for enterprises with dedicated consulting.We designed our CloudSolution PLUS application for continuous integration</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="effect-image-1">
-							<img class="img" src="https://www.montereyairport.com/sites/main/files/main-images/camera_lense_0.jpeg" alt="image-1">
+							<img class="img" src="images/Areas_DigiSol.jpg">
 							<div class="simple-text">
 								<p>Digital Solutions</p>
 								<p>DIgital</p>
@@ -271,9 +276,9 @@ Our WebNext PLUS solution is always ready to help you with the web design techno
         </div>
         <div class="box">
           <div class="image">
-            <img src="images/portfolio-3.jpg" alt="" />
+            <img src="images/portfolio-3-new.jpg" alt="" />
             <div class="content">
-              <h4>Real estate management</h4>
+              <h4>Software Testing</h4>
             </div>
           </div>
         </div>
@@ -295,7 +300,7 @@ Our WebNext PLUS solution is always ready to help you with the web design techno
         </div>
         <div class="box">
           <div class="image">
-            <img src="images/portfolio-6.jpg" alt="" />
+            <img src="images/portfolio-6-new.jpg" alt="" />
             <div class="content">
               <h4>Big data</h4>
             </div>
@@ -321,10 +326,10 @@ Our WebNext PLUS solution is always ready to help you with the web design techno
 
         <form>
           <div class="inputBox">
-            <input type="text" placeholder="your name" />
-            <input type="text" placeholder="your number" />
+		    <input type="text" placeholder="your name" maxlength="40"  required/>
+            <input type="tel" pattern="^\d{10}$" placeholder="your number (10 digit mobile number)"  maxlength="10" required/>
           </div>
-          <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+          <textarea name="" placeholder="your message" id="" cols="30" rows="10" maxlength="80" required></textarea>
           <input type="submit" value="send message" class="btn" />
         </form>
       </div>

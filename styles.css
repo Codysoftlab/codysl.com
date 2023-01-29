@@ -75,7 +75,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  padding: 5rem 9%;
+  padding: 2rem 9%;
   display: flex;
   align-items: center;
   z-index: 100;
@@ -121,7 +121,7 @@ section {
 .home {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('images/hero.jpg') no-repeat;
+    url('images/hero_new.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
